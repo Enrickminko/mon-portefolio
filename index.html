@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio de Schneider</title>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .navbar {
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    img.rounded-circle {
+      border: 4px solid #007bff;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header class="bg-primary text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <a class="navbar-brand" href="#">Mon Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#presentation">Présentation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formations">Formations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+
+        </ul>
+      </div>
+      <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Langue</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="index.html">🇫🇷 Français</a></li>
+  </ul>
+</li>
+    </nav>
+  </header>
+
+  
+  <section id="presentation" class="py-5 bg-light text-center">
+    <div class="container">
+      <h1>MINKO PLEHEU SILINOU ENRICH SCHNEIDER</h1>
+      <p class="lead">Développeur Full stack avec une imbition devenir meilleur de mon domaine</p>
+      <p>Étudiant en informatique, je conçois des applications innovantes pour améliorer la vie quotidienne. J’aime résoudre des problèmes concrets avec des solutions technologiques adaptées.</p>
+    </div>
+  </section>
+
+
+  <section id="profil">
+    <h2 class="section-title">Profil</h2>
+    <div class="container">
+        <img src="assets/images/photo de profil.jpg" alt="Photo de profil" class="img-fluid rounded-circle" width="250"/>
+      <ul class="list-unstyled text-center">
+        <li><i class="bi bi-telephone"></i> Téléphone : +237 690 41 54 69</li>
+        <li><i class="bi bi-geo-alt"></i> Lieu : Yaoundé, Cameroun</li>
+        <li><i class="bi bi-envelope"></i> Email : Enrickminko@email.com</li>
+        <li><i class="bi bi-calendar-check"></i> Disponibilité : Immédiate</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="competences" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Compétences</h2>
+      <div class="row">
+        <div class="col-md-3"><i class="fab fa-html5 fa-2x text-danger"></i><p>HTML5</p></div>
+        <div class="col-md-3"><i class="fab fa-css3-alt fa-2x text-primary"></i><p>CSS3</p></div>
+        <div class="col-md-3"><i class="fab fa-js fa-2x text-warning"></i><p>JavaScript</p></div>
+        <div class="col-md-3"><i class="fab fa-php fa-2x text-secondary"></i><p>PHP</p></div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-3"><i class="fas fa-database fa-2x text-info"></i><p>MySQL</p></div>
+        <div class="col-md-3"><i class="fab fa-bootstrap fa-2x text-purple"></i><p>Bootstrap</p></div>
+        <div class="col-md-3"><i class="fab fa-python fa-2x text-success"></i><p>Python</p></div>
+        <div class="col-md-3"><i class="fas fa-code-branch fa-2x text-dark"></i><p>Git</p></div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="formations" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Formations</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Licence en Informatique, Université de ICT UNIVERSITY (2022 - en cours)</li>
+        <li class="list-group-item">Baccalauréat Scientifique, Lycée de BA oumar (2020)</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="projets" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Projets</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <img src="assets/images/app d'evenement.png" class="card-img-top" alt="Application d'evenement" />
+            <div class="card-body">
+              <h5 class="card-title">Gestion de planning</h5>
+              <p class="card-text">Application web pour planifier des activités, notifications intégrées.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <img src="assets/images/app de traduction.png" class="card-img-top" alt="Application de traduction" />
+            <div class="card-body">
+              <h5 class="card-title">Traducteur intelligent</h5>
+              <p class="card-text">Application de traduction multilingue avec IA locale et offline.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <img src="assets/images/app de cuisine.png" class="card-img-top" alt="Application de cuisine" />
+            <div class="card-body">
+              <h5 class="card-title">Recettes connectées</h5>
+              <p class="card-text">Application de cuisine personnalisée selon les goûts et régimes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <form action="#" method="post" class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="nom" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="nom" name="nom" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Adresse e-mail</label>
+          <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+      </form>
+    </div>
+
+     <div class="text-center mt-4">
+        <p>Ou contactez-moi directement :</p>
+        <a href="enrickminko@email.com" class="btn btn-outline-dark me-2"><i class="bi bi-envelope-fill"></i> Email</a>
+        <a href="https://wa.me/237690415469" class="btn btn-outline-success"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </section>
+  <section id="liens" class="text-center mt-5">
+  <h2 class="section-title">Me suivre </h2>
+  <div class="d-flex justify-content-center gap-4">
+    <a href="https://github.com/Enrickminko" target="_blank" class="btn btn-dark">
+      <i class="bi bi-github"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/feed/" target="_blank" class="btn btn-primary">
+      <i class="bi bi-linkedin"></i> LinkedIn
+  </div>
+
+  </section>
+
+  <footer class="bg-primary text-white text-center py-3">
+    <p class="mb-0">© Silinou Schneider - 2025 | Tous droits réservés</p>
+     <div class="social-icons">
+      <a href="https://github.com/Enrickminko" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/feed/" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
